@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+h1,h2,h3,h4,h5 {
+    color: brown;
+}
+span {
+    color: mediumblue;
+}
+p span{
+    color: crimson;
+}
+.content-1 {
+    color: chartreuse;
+}
+.content-2 {
+    color: cornflowerblue;
+}
+.content-3 {
+    color: darkgrey;
+}
+.content-4 {
+    color: darkorchid;
+}
+.content-5 {
+    color: deeppink;
+}
+
+.poits {
+    color: red;
+}
+#place {
+    color: yellow;
+}
+.item {
+    color: slategrey;
+}
+.item-1 {
+    color: sandybrown;
+}
+.item-2 {
+    color: slateblue;
+}
+li .most {
+    color: orangered;
+}
+li .church {
+    color: plum;
+}
+.history {
+    color: darkgoldenrod;
+}
+.history .history-block1 {
+    color: darkgreen;
+}
+.history .history-block2 {
+    color: darkorchid;
+}
+[title="start"] {
+    color: olive;
+}
+div .start.one,
+div .start.two {
+    color: red;
+}
+[class*="text"] {
+    color: royalblue;
+}
+.history > p {
+    color: deeppink;
+}
+div .climate {
+    color: green;
+}
+.climate + p {
+color: gold;
+}
+ul.gradus {
+    color: mediumseagreen;
+}
+.all-next ~ p {
+    color: indigo;
+}
+.end ~ div {
+    color: red;
+}
